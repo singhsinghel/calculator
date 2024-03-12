@@ -65,3 +65,10 @@ button:active{
     width: 40%;
     border-radius: 2rem;
 }
+
+@media (max-width:768px) {
+    input{
+        pointer-events: none;             
+    }
+    
+}
